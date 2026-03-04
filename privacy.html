@@ -1,37 +1,79 @@
-Privacy Policy for PasteSafe
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PasteSafe — Privacy Policy</title>
+  <link rel="icon" href="assets/icon-32.png" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <div class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="./">
+        <img src="assets/logo.svg" alt="PasteSafe logo" />
+        <strong>PasteSafe</strong>
+      </a>
+      <div class="nav-links">
+        <a class="chip primary" href="privacy.html">Privacy</a>
+        <a class="chip" href="about.html">About</a>
+        <a class="chip" href="./#download">Download</a>
+      </div>
+    </div>
+  </div>
 
-PasteSafe is a browser extension designed to help users avoid accidentally sharing sensitive information when pasting text into AI chat interfaces.
+  <div class="page">
+    <div class="container">
+      <div class="card">
+        <h1>Privacy Policy</h1>
 
-Data Collection
-PasteSafe does not collect, transmit, or store any personal data on external servers.
+        <p>
+          PasteSafe is a browser extension designed to prevent accidental leaks of sensitive data when pasting text into AI chat interfaces.
+        </p>
 
-All text analysis happens locally in the user's browser.
+        <h2>Data Collection</h2>
+        <p>PasteSafe does not collect, transmit, or store any personal data on external servers.</p>
 
-Clipboard Content
-When a user pastes text into supported AI chat interfaces, the extension analyzes the pasted content locally in order to detect patterns such as:
-- email addresses
-- phone numbers
-- API keys
-- identifiers
-- URLs
-- financial amounts
+        <h2>Local Processing</h2>
+        <p>All text analysis happens locally in the user's browser.</p>
 
-This analysis happens entirely within the browser and no clipboard content is transmitted outside the device.
+        <h2>Clipboard Content</h2>
+        <p>When a user pastes text, the extension analyzes it locally to detect patterns such as:</p>
+        <ul>
+          <li>emails</li>
+          <li>phone numbers</li>
+          <li>API keys / tokens</li>
+          <li>identifiers</li>
+          <li>URLs</li>
+          <li>financial amounts</li>
+        </ul>
 
-Storage
-PasteSafe stores limited information locally using the browser's storage API, including:
-- user settings
-- protection counter
-- last detection summary
+        <h2>Storage</h2>
+        <p>PasteSafe stores only minimal local settings such as:</p>
+        <ul>
+          <li>user preferences</li>
+          <li>last detection summary</li>
+          <li>protection counter</li>
+        </ul>
+        <p>This data is stored locally using the browser storage API.</p>
 
-This data is stored only on the user's device and is never transmitted externally.
+        <h2>Third-party services</h2>
+        <p>PasteSafe does not use analytics, tracking, or advertising services.</p>
 
-Third-Party Services
-PasteSafe does not use third-party analytics, tracking, or advertising services.
+        <h2>Contact</h2>
+        <p>pastsafe.ext@gmail.com</p>
+      </div>
+    </div>
+  </div>
 
-Changes
-If this policy changes, updates will be reflected on this page.
+  <div class="footer">
+    <div class="container">
+      © <span id="y"></span> PasteSafe
+    </div>
+  </div>
 
-Contact
-For questions regarding this privacy policy, contact:
-pastsafe.ext@gmail.com
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
