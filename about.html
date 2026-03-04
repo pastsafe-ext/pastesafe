@@ -1,1 +1,64 @@
 
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PasteSafe — About</title>
+  <link rel="icon" href="assets/icon-32.png" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <div class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="./">
+        <img src="assets/logo.svg" alt="PasteSafe logo" />
+        <strong>PasteSafe</strong>
+      </a>
+      <div class="nav-links">
+        <a class="chip" href="privacy.html">Privacy</a>
+        <a class="chip primary" href="about.html">About</a>
+        <a class="chip" href="./#download">Download</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="page">
+    <div class="container">
+      <div class="card">
+        <h1>About PasteSafe</h1>
+        <p>
+          PasteSafe helps you avoid accidentally sharing sensitive information when pasting into AI chats.
+          It detects common patterns (API keys, emails, IDs, phones, URLs, amounts) and lets you mask them before inserting.
+        </p>
+
+        <h2>Why</h2>
+        <p>
+          People work across multiple projects, accounts, and tools every day. One careless paste can leak secrets into prompts,
+          shared chats, or screenshots. PasteSafe adds a small safety layer to your daily workflow.
+        </p>
+
+        <h2>Principles</h2>
+        <ul>
+          <li>Local-first: no servers</li>
+          <li>Privacy-by-design</li>
+          <li>Fast, minimal UX</li>
+        </ul>
+
+        <h2>Contact</h2>
+        <p>pastsafe.ext@gmail.com</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="container">
+      © <span id="y"></span> PasteSafe
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
