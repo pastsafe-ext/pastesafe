@@ -1,8 +1,8 @@
 # PasteSafe
 
-PasteSafe is a Chrome extension that prevents leaking sensitive data when pasting text into AI chats.
+Chrome extension that prevents leaking sensitive data when pasting text into AI chats.
 
-It detects patterns like:
+PasteSafe detects things like:
 
 - API keys
 - emails
@@ -11,33 +11,35 @@ It detects patterns like:
 - UUID
 - URLs
 
-If sensitive data is detected, it automatically masks the values before the text is inserted into the chat.
+If sensitive data is detected, it automatically masks the values before the text is inserted.
 
-Example:
+---
 
-API_KEY → [API_KEY#1]
+## Screenshot
 
-## Works with
+![PasteSafe popup](assets/screen-popup.png)
+
+---
+
+## Install
+
+Install from Chrome Web Store:
+https://chromewebstore.google.com/detail/pastesafe-%E2%80%94-ai-paste-sani/gpoiombmmaegnfijmcelgbkfbkelgdih?authuser=0&hl=en
+
+---
+
+## Supported AI chats
 
 - ChatGPT
 - Claude
 - Gemini
 
+---
+
 ## Privacy
 
-Everything runs **locally in the browser**.
+Everything runs locally in the browser.
 
 No servers.  
+No tracking.  
 No data collection.
-
-## Install
-
-Chrome Web Store:
-
-https://chromewebstore.google.com/detail/pastesafe-%E2%80%94-ai-paste-sani/gpoiombmmaegnfijmcelgbkfbkelgdih?authuser=0&hl=en
-
-## Why this exists
-
-When using AI chats it’s easy to accidentally paste logs or configs containing sensitive data.
-
-PasteSafe adds a simple safety layer before the text is sent.
