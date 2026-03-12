@@ -24,7 +24,7 @@ If sensitive data is detected, it automatically masks the values before the text
 ## Install
 
 Install from Chrome Web Store:
-https://chromewebstore.google.com/detail/pastesafe-%E2%80%94-ai-paste-sani/gpoiombmmaegnfijmcelgbkfbkelgdih?authuser=0&hl=en
+https://chromewebstore.google.com/detail/pastesafe-%E2%80%94-ai-paste-sani/gpoiombmmaegnfijmcelgbkfbkelgdih
 
 ---
 
