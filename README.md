@@ -33,7 +33,7 @@ Chrome Web Store:
 
 Project page:
 
-pastsafe-ext.github.io/pastesafe/
+[pastsafe-ext.github.io/pastesafe/](https://pastsafe-ext.github.io/pastesafe/)
 
 ---
 
