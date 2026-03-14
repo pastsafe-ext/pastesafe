@@ -94,11 +94,15 @@ More patterns are planned.
 ## 🧪 Example
 
 Before:
+
 API key: sk-1234567890abcdef
+
 Email: user@company.com
 
 After:
+
 API key: [API_KEY#1]
+
 Email: [EMAIL#1]
 
 
