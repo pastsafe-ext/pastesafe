@@ -29,7 +29,7 @@ If something risky is found, PasteSafe can **warn you or automatically mask it**
 
 Chrome Web Store:
 
-https://chromewebstore.google.com/detail/pastesafe---ai-paste-sani/gpoiombmmaegnifjmcelgbkfbkelgdih
+[https://chromewebstore.google.com/detail/pastesafe---ai-paste-sani/gpoiombmmaegnifjmcelgbkfbkelgdih](https://chromewebstore.google.com/detail/pastesafe-%E2%80%94-ai-paste-sani/gpoiombmmaegnfijmcelgbkfbkelgdih)
 
 Project page:
 
