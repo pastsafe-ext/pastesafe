@@ -3,16 +3,14 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>PasteSafe — AI Paste Sanitizer</title>
-  <meta name="description" content="Prevent accidental leaks when pasting into AI chats. Detect and mask sensitive data locally." />
+  <title>PasteSafe — Protect sensitive data in AI chats</title>
+  <meta name="description" content="PasteSafe detects and masks sensitive data before you paste into ChatGPT, Gemini or Claude." />
 
-  <!-- Favicons -->
   <link rel="icon" href="assets/icon-32.png" />
   <link rel="apple-touch-icon" href="assets/icon-192.png" />
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="PasteSafe — AI Paste Sanitizer" />
-  <meta property="og:description" content="Detect and mask sensitive data before you paste into AI chats." />
+  <meta property="og:title" content="PasteSafe — Protect sensitive data in AI chats" />
+  <meta property="og:description" content="Detect and mask sensitive data before you paste into ChatGPT, Gemini or Claude." />
   <meta property="og:image" content="assets/og.png" />
   <meta property="og:type" content="website" />
 
@@ -28,9 +26,10 @@
       </a>
 
       <div class="nav-links">
+        <a class="chip" href="#how">How it works</a>
+        <a class="chip" href="#about">About</a>
         <a class="chip" href="privacy.html">Privacy</a>
-        <a class="chip" href="about.html">About</a>
-        <a class="chip primary" href="#download">Download</a>
+        <a class="chip primary" href="https://chromewebstore.google.com/detail/pastesafe-%E2%80%94-ai-paste-sani/gpoiombmmaegnfijmcelgbkfbkelgdih" target="_blank" rel="noopener noreferrer">Download</a>
       </div>
     </div>
   </div>
@@ -44,21 +43,29 @@
           <span class="badge">ChatGPT / Gemini / Claude</span>
         </div>
 
-        <h1 class="h1">Paste into AI chats safely.</h1>
-        <p class="lead">
-          PasteSafe detects sensitive data (API keys, emails, IDs, phones, URLs, amounts)
-          and lets you mask it before you send.
+        <h1 class="h1">Protect sensitive data before it reaches AI chats.</h1>
+
+        <p class="lead lead-lg">
+          PasteSafe detects sensitive patterns when you paste text into ChatGPT, Gemini or Claude
+          and lets you replace them with masked placeholders before sending.
         </p>
 
-        <div class="cta" id="download">
-          <a class="btn primary" href="https://chromewebstore.google.com/detail/pastesafe-%E2%80%94-ai-paste-sani/gpoiombmmaegnfijmcelgbkfbkelgdih" aria-label="Download PasteSafe">
+        <p class="lead">
+          It helps prevent accidental leaks of API keys, emails, URLs, IDs, phone numbers,
+          amounts and other sensitive values in prompts, shared chats or screenshots.
+        </p>
+
+        <div class="cta">
+          <a class="btn primary" href="https://chromewebstore.google.com/detail/pastesafe-%E2%80%94-ai-paste-sani/gpoiombmmaegnfijmcelgbkfbkelgdih" target="_blank" rel="noopener noreferrer" aria-label="Download PasteSafe">
             <span class="dot" aria-hidden="true"></span>
-            Install Chrome Extension
+            Add to Chrome
           </a>
-          <a class="btn" href="privacy.html">Read Privacy Policy</a>
+          <a class="btn" href="https://github.com/pastsafe-ext/pastesafe" target="_blank" rel="noopener noreferrer">
+            View on GitHub
+          </a>
         </div>
 
-        <p class="lead" style="margin-top:12px; font-size:12px;">
+        <p class="subnote">
           Available on Chrome Web Store. Runs locally. No tracking.
         </p>
       </div>
@@ -70,13 +77,13 @@
             <span class="kbd">Ask before insert</span>
           </div>
           <div class="mini">
-Email: john.petrov+demo@company.co.uk<br/>
-API key: sk-1234567890abcdef1234567890abcdef<br/>
-Money: $48,000.50<br/><br/>
-Safe version → <br/>
-Email: [EMAIL#1],<br/>
-API key: [API_KEY#1],<br/>
-Money: [AMOUNT#1]
+            Email: john.petrov+demo@company.co.uk<br/>
+            API key: sk-1234567890abcdef1234567890abcdef<br/>
+            Money: $48,000.50<br/><br/>
+            Safe version →<br/>
+            Email: [EMAIL#1],<br/>
+            API key: [API_KEY#1],<br/>
+            Money: [AMOUNT#1]
           </div>
         </div>
 
@@ -86,10 +93,46 @@ Money: [AMOUNT#1]
             <span class="kbd">no text leaves your browser</span>
           </div>
           <div class="mini">
-• Detects patterns on paste<br/>
-• Masks tokens before insert<br/>
-• Saves only settings + counters
+            • Detects patterns on paste<br/>
+            • Masks tokens before insert<br/>
+            • Saves only settings + counters
           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="demo">
+    <div class="container">
+      <div class="card demo-block">
+        <div class="preview-title demo-title">
+          <span>Live demo</span>
+          <span class="kbd">mask before send</span>
+        </div>
+
+        <img
+          class="demo-image"
+          src="assets/pastsafe-demo.gif"
+          alt="PasteSafe demo showing sensitive data detection and masking before sending to an AI chat"
+        />
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="how">
+    <div class="container">
+      <div class="grid3">
+        <div class="feature">
+          <h3>1. Paste text</h3>
+          <p>Paste content into a supported AI chat interface such as ChatGPT, Gemini or Claude.</p>
+        </div>
+        <div class="feature">
+          <h3>2. Review sensitive data</h3>
+          <p>PasteSafe detects risky patterns locally and shows what can be masked before insertion.</p>
+        </div>
+        <div class="feature">
+          <h3>3. Insert a safer version</h3>
+          <p>Replace detected values with placeholders and continue your workflow with minimal friction.</p>
         </div>
       </div>
     </div>
@@ -100,7 +143,7 @@ Money: [AMOUNT#1]
       <div class="grid3">
         <div class="feature">
           <h3>Prevents accidental leaks</h3>
-          <p>Catch secrets before they end up in prompts or screenshots.</p>
+          <p>Catch secrets before they end up in prompts, screenshots or copied prompt history.</p>
         </div>
         <div class="feature">
           <h3>Fast and lightweight</h3>
@@ -108,15 +151,64 @@ Money: [AMOUNT#1]
         </div>
         <div class="feature">
           <h3>Built for daily workflows</h3>
-          <p>Great for devs, analysts, PMs, founders, and anyone using AI tools.</p>
+          <p>Great for developers, analysts, PMs, founders and anyone using AI tools at work.</p>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="footer">
+  <div class="page" id="about">
     <div class="container">
-      © <span id="y"></span> PasteSafe · <a class="chip" href="privacy.html">Privacy</a>
+      <div class="card about-card">
+        <h1>About PasteSafe</h1>
+
+        <p>
+          PasteSafe was created as a small safety layer for everyday AI workflows. People copy logs,
+          configs, snippets, account data and notes all day long — and sometimes paste them into the wrong place.
+        </p>
+
+        <p>
+          AI chats are incredibly useful, but they also make careless pastes more likely. PasteSafe helps reduce
+          that risk by detecting common sensitive patterns on paste and giving you a chance to mask them before
+          they appear in the chat input.
+        </p>
+
+        <h2>Principles</h2>
+        <ul>
+          <li>Local-first: detection runs in the browser</li>
+          <li>No backend and no server-side text processing</li>
+          <li>Fast, minimal UX that stays close to the native paste flow</li>
+        </ul>
+
+        <h2>What PasteSafe can detect</h2>
+        <ul>
+          <li>API keys</li>
+          <li>Email addresses</li>
+          <li>Phone numbers</li>
+          <li>UUIDs / identifiers</li>
+          <li>URLs</li>
+          <li>Financial amounts</li>
+        </ul>
+
+        <h2>Who it is for</h2>
+        <p>
+          Developers, analysts, PMs, founders, support teams and anyone who regularly uses AI tools
+          while handling semi-sensitive text from real projects.
+        </p>
+
+        <h2>Contact</h2>
+        <p>pastsafe.ext@gmail.com</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="container footer-inner">
+      <div>© <span id="y"></span> PasteSafe</div>
+      <div class="footer-links">
+        <a class="chip" href="privacy.html">Privacy</a>
+        <a class="chip" href="https://github.com/pastsafe-ext/pastesafe" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
     </div>
   </div>
 
