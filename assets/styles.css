@@ -114,7 +114,7 @@ a:hover{opacity:.94}
 }
 
 .h1{
-  font-size:56px;
+  font-size:48px;
   line-height:1.02;
   margin:0 0 16px;
   letter-spacing:-1px;
@@ -130,13 +130,13 @@ a:hover{opacity:.94}
 
 .lead{
   margin:0 0 18px;
-  font-size:22px;
+  font-size:19px;
   color:var(--muted);
   line-height:1.5;
 }
 
 .lead-lg{
-  font-size:24px;
+  font-size:20px;
 }
 
 @media (max-width: 720px){
@@ -224,7 +224,7 @@ a:hover{opacity:.94}
 
 .mini{
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
-  font-size:20px;
+  font-size:15px;
   color: rgba(255,255,255,.9);
   line-height:1.6;
   background: rgba(0,0,0,.25);
@@ -270,12 +270,12 @@ a:hover{opacity:.94}
 
 .feature h3{
   margin:0 0 8px;
-  font-size:28px;
+  font-size:20px;
 }
 
 .feature p{
   margin:0;
-  font-size:21px;
+  font-size:16px;
   color: var(--muted);
   line-height:1.5;
 }
@@ -326,7 +326,7 @@ a:hover{opacity:.94}
 .page li{
   color: var(--muted);
   line-height: 1.7;
-  font-size: 22px;
+  font-size: 17px;
 }
 
 @media (max-width: 720px){
