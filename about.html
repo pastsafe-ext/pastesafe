@@ -1,10 +1,10 @@
-
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>PasteSafe — About</title>
+  <title>PasteSafe — Protect sensitive data in AI chats</title>
+  <meta name="description" content="PasteSafe detects sensitive data when you paste into ChatGPT, Claude or Gemini and lets you mask it before sending." />
   <link rel="icon" href="assets/icon-32.png" />
   <link rel="stylesheet" href="assets/styles.css" />
 </head>
@@ -17,34 +17,77 @@
       </a>
       <div class="nav-links">
         <a class="chip" href="privacy.html">Privacy</a>
-        <a class="chip primary" href="about.html">About</a>
-        <a class="chip" href="./#download">Download</a>
+        <a class="chip" href="about.html">About</a>
+        <a class="chip primary" href="#download">Download</a>
       </div>
     </div>
   </div>
 
   <div class="page">
     <div class="container">
+      <div class="card hero">
+        <p class="eyebrow">Chrome extension for safer AI workflows</p>
+        <h1>Protect sensitive data before it reaches AI chats</h1>
+        <p class="lead">
+          PasteSafe detects API keys, emails, URLs, IDs, phone numbers and other sensitive data
+          when you paste into ChatGPT, Claude or Gemini — and lets you mask it before sending.
+        </p>
+
+        <div class="hero-actions" id="download">
+          <a class="chip primary" href="https://chromewebstore.google.com/detail/pastesafe-%E2%80%94-ai-paste-sani/gpoiombmmaegnfijmcelgbkfbkelgdih" target="_blank" rel="noopener noreferrer">
+            Add to Chrome
+          </a>
+          <a class="chip" href="https://github.com/pastsafe-ext/pastesafe" target="_blank" rel="noopener noreferrer">
+            View on GitHub
+          </a>
+        </div>
+
+        <div class="demo">
+          <img src="assets/pastesafe-demo.gif" alt="PasteSafe demo showing sensitive data detection and masking before sending to an AI chat" />
+        </div>
+      </div>
+
       <div class="card">
-        <h1>About PasteSafe</h1>
-        <p>
-          PasteSafe helps you avoid accidentally sharing sensitive information when pasting into AI chats.
-          It detects common patterns (API keys, emails, IDs, phones, URLs, amounts) and lets you mask them before inserting.
-        </p>
+        <h2>How it works</h2>
+        <div class="steps">
+          <div class="step">
+            <h3>1. Paste text into an AI chat</h3>
+            <p>PasteSafe watches for pasted content in supported chat interfaces.</p>
+          </div>
+          <div class="step">
+            <h3>2. Detect sensitive data locally</h3>
+            <p>It looks for common risky patterns like API keys, emails, URLs, IDs and more.</p>
+          </div>
+          <div class="step">
+            <h3>3. Mask before sending</h3>
+            <p>You can review the content and insert a safer version instead of the original.</p>
+          </div>
+        </div>
+      </div>
 
-        <h2>Why</h2>
-        <p>
-          People work across multiple projects, accounts, and tools every day. One careless paste can leak secrets into prompts,
-          shared chats, or screenshots. PasteSafe adds a small safety layer to your daily workflow.
-        </p>
-
-        <h2>Principles</h2>
+      <div class="card">
+        <h2>Why PasteSafe</h2>
         <ul>
-          <li>Local-first: no servers</li>
-          <li>Privacy-by-design</li>
-          <li>Fast, minimal UX</li>
+          <li>100% local processing — no servers</li>
+          <li>Fast, minimal workflow</li>
+          <li>Built for ChatGPT, Claude and Gemini</li>
+          <li>Helps reduce accidental prompt leaks</li>
         </ul>
+      </div>
 
+      <div class="card">
+        <h2>What PasteSafe can detect</h2>
+        <ul>
+          <li>API keys</li>
+          <li>Email addresses</li>
+          <li>Phone numbers</li>
+          <li>UUIDs and identifiers</li>
+          <li>URLs</li>
+          <li>Financial values and other suspicious patterns</li>
+        </ul>
+      </div>
+
+      <div class="card">
         <h2>Contact</h2>
         <p>pastsafe.ext@gmail.com</p>
       </div>
