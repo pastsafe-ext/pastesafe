@@ -23,7 +23,7 @@ When you paste text into AI chats like **ChatGPT, Gemini, or Claude**, the exten
 
 If something risky is found, PasteSafe can **warn you or automatically mask it**.
 
-![PasteSafe Demo](assets/pastsafe-demo.gif)
+![PasteSafe Demo](assets/pastsafe example.gif)
 
 ---
 
